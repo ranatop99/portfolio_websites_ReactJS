@@ -16,10 +16,10 @@ const Home = () => {
           </h2>
           <p className="text-gray-500 py-4 max-w-md"> {aboutMe}</p>
           <div>
-            <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500">
+            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500">
               Portfolio
-              <span className="text-2xl">
-                <TbArrowRightSquare />
+              <span className="group-hover:rotate-90 duration-300">
+                <TbArrowRightSquare size={25} className="ml-1" />
               </span>
             </button>
           </div>
