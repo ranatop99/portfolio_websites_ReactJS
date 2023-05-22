@@ -5,7 +5,7 @@ const NavBar = () => {
   const { links } = data;
   const [nav, setNav] = useState(false);
   return (
-    <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed">
+    <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed px-2">
       <div>
         <h1 className="text-4xl font-signature ml-2">Rana</h1>
       </div>
