@@ -14,23 +14,29 @@ export const data = {
   links: [
     {
       id: 1,
-      link: "home",
+      component: "home",
+      url: "/"
     },
     {
       id: 2,
-      link: "About",
+      component: "About",
+      url: "/about"
     },
     {
       id: 3,
-      link: "portfolio",
+      component: "portfolio",
+      url: "/portfolio"
     },
     {
       id: 4,
-      link: "experience",
+      component: "skills",
+      url: "/skills"
+
     },
     {
       id: 5,
-      link: "contact",
+      component: "contact",
+      url: "/contact"
     },
   ],
   homeImageUrl: HomeImage,

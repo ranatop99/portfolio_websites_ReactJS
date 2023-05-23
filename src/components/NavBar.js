@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import { data } from "../utilis/data";
 const NavBar = () => {
   const { links } = data;
@@ -11,12 +12,13 @@ const NavBar = () => {
       </div>
       <ul className="hidden md:flex">
         {links.map((link, id) => {
+          const { component, url } = link;
           return (
             <li
               key={id}
               className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
             >
-              {link.link}
+              <Link to={url}>{component}</Link>
             </li>
           );
         })}
