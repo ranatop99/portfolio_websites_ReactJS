@@ -13,7 +13,7 @@ const Skill = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 inline">
             Skills
           </p>
-          <p className="text-l">
+          <p className="text-l py-6">
             I have hands-on experience with the following technologies:
           </p>
         </div>
