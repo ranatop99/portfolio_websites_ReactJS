@@ -4,10 +4,7 @@ import { data } from "../utilis/data";
 const Skill = () => {
   const { skills } = data;
   return (
-    <div
-
-      className="w-full md:h-screen bg-gradient-to-b from-gray-800 to-black"
-    >
+    <div className="w-full md:h-screen bg-gradient-to-b from-gray-800 to-black">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 inline">
